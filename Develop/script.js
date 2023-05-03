@@ -1,8 +1,9 @@
-// identify variables
-var saveBtn = $(".saveBtn"); 
+// Defined Variables
+var saveBtn = $(".saveBtn");
 
+// Functions
 // current day is displayed at the top of the calendar
-dayjs().format();
+$("#currentDay").text(moment().format('dddd MMMM Do YYYY'));
 
 // each time block is color-coded to indicate whether it is in the past, present, or future
 function timeBlockColor() {
@@ -57,3 +58,4 @@ function usePlanner() {
 
 timeBlockColor();
 usePlanner();
+
