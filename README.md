@@ -38,6 +38,7 @@ https://github.com/irivera2116/Workday-Calendar
 
 ## Screenshot of Working Website
 
+![image](https://user-images.githubusercontent.com/122132059/236361826-63017975-f75d-43d5-9c74-cbd266867025.png)
 
 
 ## Links to helpful code
