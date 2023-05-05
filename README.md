@@ -31,6 +31,10 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
+## Deployed Website & Github repo
+
+https://github.com/irivera2116/Workday-Calendar
+
 
 ## Screenshot of Working Website
 
