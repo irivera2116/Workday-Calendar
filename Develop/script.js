@@ -3,11 +3,11 @@ var saveBtn = $(".saveBtn");
 
 // Functions
 // current day is displayed at the top of the calendar
-$("#currentDay").text(moment().format('dddd MMMM Do YYYY'));
+$("#currentDay").text(dayjs().format('dddd MMMM D YYYY'));
 
-// each time block is color-coded to indicate whether it is in the past, present, or future
+// the time blocks change colors based on the time of day
 function timeBlockColor() {
-    var hour = moment().hours();
+    var hour = dayjs().hour();
 
     $(".time-block").each(function() {
         var currHour = parseInt($(this).attr("id"));
@@ -52,10 +52,5 @@ function usePlanner() {
     });
 }
 
-/**
- * CALL FUNCTIONS
- */
-
 timeBlockColor();
 usePlanner();
-
